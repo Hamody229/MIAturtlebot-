@@ -1,13 +1,13 @@
 # MIAturtlebot-
 ***********************
-##How to install GAZEBO *
+## How to install GAZEBO *
 ***********************
 https://github.com/Abdalla-El-gohary/Gazebo-Installation/tree/main
 
 __________________________________________________________________________________________
 
 ***********************************
-##Start with turtlebot 3 simulation *
+## Start with turtlebot 3 simulation *
 ***********************************
 first install turtlebot 3 :
 ```
@@ -15,7 +15,7 @@ first install turtlebot 3 :
   git clone -b kinetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
   cd ~/catkin_ws && catkin_make
 ```
-###some issues you may face :
+### some issues you may face :
 ```
 CMake Error at /opt/ros/noetic/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
   Could not find a package configuration file provided by "turtlebot3_msgs"
@@ -29,7 +29,7 @@ CMake Error at /opt/ros/noetic/share/catkin/cmake/catkinConfig.cmake:83 (find_pa
 Call Stack (most recent call first):
   turtlebot3_simulations/turtlebot3_fake/CMakeLists.txt:10 (find_package)
 ```
-###How to solve it : 
+### How to solve it : 
 ```
 sudo apt-get install ros-noetic-turtlebot3-msgs
 ```
@@ -66,5 +66,7 @@ sudo apt-get install ros-noetic-turtlebot3-teleop
 roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
 
-
+***********************************
+## Read IMU data 
+***********************************
 
