@@ -1,0 +1,973 @@
+Archive member included to satisfy reference by file (symbol)
+
+d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+                              build/default/debug/adc_test.o (__do_copy_data)
+d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(exit.o)
+                              D:/x-micros/x-ide/setup/packs/Microchip/ATmega_DFP/3.1.264/xc8/avr/lib/avr5/crtatmega328p.o (exit)
+d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__sio_printf_doux.o)
+                              build/default/debug/adc_test.o (_printf_cdopuxX)
+d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_d.o)
+                              d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__sio_printf_doux.o) (__fmt_d_needed)
+d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_o.o)
+                              d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__sio_printf_doux.o) (__fmt_o_needed)
+d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_s.o)
+                              d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__sio_printf_doux.o) (__fmt_s_needed)
+d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_u.o)
+                              d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_d.o) (__cvt_u)
+d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_x.o)
+                              d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__sio_printf_doux.o) (__fmt_x_needed)
+d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__pop_int.o)
+                              d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__sio_printf_doux.o) (__pop_int_needed)
+d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__printf_core.o)
+                              d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_d.o) (__pad)
+d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fputc.o)
+                              d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__printf_core.o) (fputc)
+d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(stdout.o)
+                              d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__sio_printf_doux.o) (_stdout)
+d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strlen.o)
+                              d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_s.o) (strlen)
+d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(tolower.o)
+                              d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__printf_core.o) (tolower)
+d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(toupper.o)
+                              d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_x.o) (toupper)
+d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(errno.o)
+                              d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__printf_core.o) (__errno_val)
+d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(_Exit.o)
+                              d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(exit.o) (_Exit)
+d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__int_vfprintf.o)
+                              d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__sio_printf_doux.o) (__vfprintf)
+d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+                              d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_u.o) (__udivmodsi4)
+d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+                              d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(_Exit.o) (_exit)
+d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+                              d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__sio_printf_doux.o) (__prologue_saves__)
+d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+                              d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__sio_printf_doux.o) (__epilogue_restores__)
+
+Allocating common symbols
+Common symbol       size              file
+
+__stdout_used       0x2               d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(stdout.o)
+__errno_val         0x2               d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(errno.o)
+
+Discarded input sections
+
+ .data          0x0000000000000000        0x0 D:/x-micros/x-ide/setup/packs/Microchip/ATmega_DFP/3.1.264/xc8/avr/lib/avr5/crtatmega328p.o
+ .bss           0x0000000000000000        0x0 D:/x-micros/x-ide/setup/packs/Microchip/ATmega_DFP/3.1.264/xc8/avr/lib/avr5/crtatmega328p.o
+ .text          0x0000000000000000        0x0 build/default/debug/interrupts.o
+ .data          0x0000000000000000        0x0 build/default/debug/interrupts.o
+ .bss           0x0000000000000000        0x0 build/default/debug/interrupts.o
+ .text.enableInterrupts
+                0x0000000000000000        0x4 build/default/debug/interrupts.o
+ .text.disableInterrupts
+                0x0000000000000000        0x4 build/default/debug/interrupts.o
+ .text.attachInterrupt
+                0x0000000000000000      0x170 build/default/debug/interrupts.o
+ .text.detachInterrupt
+                0x0000000000000000       0x20 build/default/debug/interrupts.o
+ .text          0x0000000000000000        0x0 build/default/debug/test_interrupts.o
+ .data          0x0000000000000000        0x0 build/default/debug/test_interrupts.o
+ .bss           0x0000000000000000        0x0 build/default/debug/test_interrupts.o
+ .text.my_callback
+                0x0000000000000000        0x4 build/default/debug/test_interrupts.o
+ .debug_info    0x0000000000000000      0x25f build/default/debug/test_interrupts.o
+ .debug_abbrev  0x0000000000000000       0x44 build/default/debug/test_interrupts.o
+ .debug_aranges
+                0x0000000000000000       0x20 build/default/debug/test_interrupts.o
+ .debug_ranges  0x0000000000000000       0x10 build/default/debug/test_interrupts.o
+ .debug_line    0x0000000000000000       0x7e build/default/debug/test_interrupts.o
+ .debug_str     0x0000000000000000        0x0 build/default/debug/test_interrupts.o
+ .comment       0x0000000000000000       0x30 build/default/debug/test_interrupts.o
+ .debug_frame   0x0000000000000000       0x24 build/default/debug/test_interrupts.o
+ .text          0x0000000000000000        0x0 build/default/debug/adc.o
+ .data          0x0000000000000000        0x0 build/default/debug/adc.o
+ .bss           0x0000000000000000        0x0 build/default/debug/adc.o
+ .text          0x0000000000000000        0x0 build/default/debug/adc_test.o
+ .data          0x0000000000000000        0x0 build/default/debug/adc_test.o
+ .bss           0x0000000000000000        0x0 build/default/debug/adc_test.o
+ .text          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .data          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .bss           0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(exit.o)
+ .data          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(exit.o)
+ .bss           0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(exit.o)
+ .stack.descriptors
+                0x0000000000000000       0x73 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(exit.o)
+ .text          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__sio_printf_doux.o)
+ .data          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__sio_printf_doux.o)
+ .bss           0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__sio_printf_doux.o)
+ .stack.descriptors
+                0x0000000000000000       0x3a d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__sio_printf_doux.o)
+ .text.__sio_printf_doux
+                0x0000000000000000       0x1a d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__sio_printf_doux.o)
+ .text          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_d.o)
+ .data          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_d.o)
+ .bss           0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_d.o)
+ .stack.descriptors
+                0x0000000000000000       0x15 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_d.o)
+ .text          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_o.o)
+ .data          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_o.o)
+ .bss           0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_o.o)
+ .stack.descriptors
+                0x0000000000000000       0x15 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_o.o)
+ .text          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_s.o)
+ .data          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_s.o)
+ .bss           0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_s.o)
+ .stack.descriptors
+                0x0000000000000000       0x15 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_s.o)
+ .text          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_u.o)
+ .data          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_u.o)
+ .bss           0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_u.o)
+ .stack.descriptors
+                0x0000000000000000       0x2a d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_u.o)
+ .text          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_x.o)
+ .data          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_x.o)
+ .bss           0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_x.o)
+ .stack.descriptors
+                0x0000000000000000       0x15 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_x.o)
+ .text          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__pop_int.o)
+ .data          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__pop_int.o)
+ .bss           0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__pop_int.o)
+ .stack.descriptors
+                0x0000000000000000       0x17 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__pop_int.o)
+ .text          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__printf_core.o)
+ .data          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__printf_core.o)
+ .bss           0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__printf_core.o)
+ .stack.descriptors
+                0x0000000000000000       0x91 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__printf_core.o)
+ .text          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fputc.o)
+ .data          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fputc.o)
+ .bss           0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fputc.o)
+ .stack.descriptors
+                0x0000000000000000       0x13 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fputc.o)
+ .text          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(stdout.o)
+ .data          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(stdout.o)
+ .bss           0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(stdout.o)
+ .stack.descriptors
+                0x0000000000000000       0x1b d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(stdout.o)
+ .text.__init_stdout
+                0x0000000000000000       0x1e d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(stdout.o)
+ .data.f        0x0000000000000000       0x10 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(stdout.o)
+ COMMON         0x0000000000000000        0x2 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(stdout.o)
+ .text          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strlen.o)
+ .data          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strlen.o)
+ .bss           0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strlen.o)
+ .stack.descriptors
+                0x0000000000000000       0x14 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strlen.o)
+ .text          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(tolower.o)
+ .data          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(tolower.o)
+ .bss           0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(tolower.o)
+ .stack.descriptors
+                0x0000000000000000       0x2e d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(tolower.o)
+ .text.__tolower_l
+                0x0000000000000000        0x6 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(tolower.o)
+ .text          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(toupper.o)
+ .data          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(toupper.o)
+ .bss           0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(toupper.o)
+ .stack.descriptors
+                0x0000000000000000       0x2e d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(toupper.o)
+ .text.__toupper_l
+                0x0000000000000000        0x6 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(toupper.o)
+ .text          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(errno.o)
+ .data          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(errno.o)
+ .bss           0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(errno.o)
+ .text          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(_Exit.o)
+ .data          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(_Exit.o)
+ .bss           0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(_Exit.o)
+ .stack.descriptors
+                0x0000000000000000       0x13 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(_Exit.o)
+ .text          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__int_vfprintf.o)
+ .data          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__int_vfprintf.o)
+ .bss           0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__int_vfprintf.o)
+ .stack.descriptors
+                0x0000000000000000       0x18 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__int_vfprintf.o)
+ .text          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .data          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .bss           0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .stack.descriptors
+                0x0000000000000000       0x1a d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc   0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .data          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .bss           0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .stack.descriptors
+                0x0000000000000000       0x13 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .data          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .bss           0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc   0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .data          0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .bss           0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc   0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x0000000000000000 0x0000000000008000 xr
+data             0x0000000000800100 0x0000000000000800 rw !x
+eeprom           0x0000000000810000 0x0000000000000400 rw !x
+fuse             0x0000000000820000 0x0000000000000003 rw !x
+lock             0x0000000000830000 0x0000000000000400 rw !x
+signature        0x0000000000840000 0x0000000000000400 rw !x
+user_signatures  0x0000000000850000 0x0000000000000400 rw !x
+bootrow          0x0000000000860000 0x0000000000000400 rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD D:/x-micros/x-ide/setup/packs/Microchip/ATmega_DFP/3.1.264/xc8/avr/lib/avr5/crtatmega328p.o
+                0x0000000000000001                __MPLAB_BUILD = 0x1
+LOAD build/default/debug/interrupts.o
+LOAD build/default/debug/test_interrupts.o
+LOAD build/default/debug/adc.o
+LOAD build/default/debug/adc_test.o
+START GROUP
+LOAD d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a
+END GROUP
+                0x0000000000000001                __MPLAB_DEBUG = 0x1
+                0x0000000000000001                __DEBUG = 0x1
+                0x0000000000000001                __MPLAB_DEBUGGER_SIMULATOR = 0x1
+START GROUP
+LOAD d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a
+LOAD d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a
+LOAD d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a
+LOAD D:/x-micros/x-ide/setup/packs/Microchip/ATmega_DFP/3.1.264/xc8/avr/lib/avr5\libatmega328p.a
+END GROUP
+                0x0000000000000000                __TEXT_REGION_ORIGIN__ = DEFINED (__TEXT_REGION_ORIGIN__)?__TEXT_REGION_ORIGIN__:0x0
+                [0x0000000000800100]                __DATA_REGION_ORIGIN__ = DEFINED (__DATA_REGION_ORIGIN__)?__DATA_REGION_ORIGIN__:0x800060
+                [0x0000000000008000]                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                [0x0000000000000800]                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                [0x0000000000000400]                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x0000000000000003]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x0000000000000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x0000000000000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x0000000000000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+                0x0000000000000400                __BOOTROW_REGION_LENGTH__ = DEFINED (__BOOTROW_REGION_LENGTH__)?__BOOTROW_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000000000000000       0xda
+ *(.vectors)
+ .vectors       0x0000000000000000       0x68 D:/x-micros/x-ide/setup/packs/Microchip/ATmega_DFP/3.1.264/xc8/avr/lib/avr5/crtatmega328p.o
+                0x0000000000000000                __vector_default
+                0x0000000000000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.dinit)
+ .dinit         0x0000000000000068       0x1d data_init
+                0x0000000000000086                . = ALIGN (0x2)
+ *fill*         0x0000000000000085        0x1 
+                0x0000000000000086                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x0000000000000086        0x0 linker stubs
+ *(.trampolines*)
+                0x0000000000000086                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+                0x0000000000000086                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x0000000000000086                __ctors_start = .
+ *(.ctors)
+                0x0000000000000086                __ctors_end = .
+                0x0000000000000086                __dtors_start = .
+ *(.dtors)
+                0x0000000000000086                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x0000000000000086        0x0 D:/x-micros/x-ide/setup/packs/Microchip/ATmega_DFP/3.1.264/xc8/avr/lib/avr5/crtatmega328p.o
+                0x0000000000000086                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000000000000086        0xc D:/x-micros/x-ide/setup/packs/Microchip/ATmega_DFP/3.1.264/xc8/avr/lib/avr5/crtatmega328p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000000000000092       0x3c d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+                0x0000000000000092                __do_copy_data
+                0x00000000000000c0                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000000000000ce        0x8 D:/x-micros/x-ide/setup/packs/Microchip/ATmega_DFP/3.1.264/xc8/avr/lib/avr5/crtatmega328p.o
+ *(.init9)
+                0x00000000000000d6                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00000000000000d6        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+                0x00000000000000d6                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00000000000000d6        0x4 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00000000000000da                _etext = .
+
+.data           0x0000000000800100        0x0 load address 0x00000000000000da
+                [!provide]                        PROVIDE (__data_start, .)
+ *(.gnu.linkonce.d*)
+ *(.gnu.linkonce.r*)
+                0x0000000000800100                . = ALIGN (0x2)
+                0x0000000000800100                _edata = .
+                [!provide]                        PROVIDE (__data_end, .)
+
+.bss            0x0000000000800100        0x2
+                [!provide]                        PROVIDE (__bss_start, .)
+ *(COMMON)
+ COMMON         0x0000000000800100        0x2 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(errno.o)
+                0x0000000000800100                __errno_val
+                [!provide]                        PROVIDE (__bss_end, .)
+                0x00000000000000da                __data_load_start = LOADADDR (.data)
+                0x00000000000000da                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0000000000800102        0x0
+                [!provide]                        PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                [!provide]                        PROVIDE (__noinit_end, .)
+                0x0000000000800102                _end = .
+
+.eeprom         0x0000000000810000        0x0
+ *(.eeprom*)
+                0x0000000000810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.bootrow
+ *(.bootrow*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x5b
+ *(.comment)
+ .comment       0x0000000000000000       0x2f build/default/debug/interrupts.o
+                                         0x30 (size before relaxing)
+ .comment       0x000000000000002f       0x30 build/default/debug/adc.o
+ .comment       0x000000000000002f       0x30 build/default/debug/adc_test.o
+ .comment       0x000000000000002f       0x2c d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(exit.o)
+                                         0x2d (size before relaxing)
+ .comment       0x000000000000005b       0x2d d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__sio_printf_doux.o)
+ .comment       0x000000000000005b       0x2d d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_d.o)
+ .comment       0x000000000000005b       0x2d d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_o.o)
+ .comment       0x000000000000005b       0x2d d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_s.o)
+ .comment       0x000000000000005b       0x2d d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_u.o)
+ .comment       0x000000000000005b       0x2d d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_x.o)
+ .comment       0x000000000000005b       0x2d d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__pop_int.o)
+ .comment       0x000000000000005b       0x2d d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__printf_core.o)
+ .comment       0x000000000000005b       0x2d d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fputc.o)
+ .comment       0x000000000000005b       0x2d d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(stdout.o)
+ .comment       0x000000000000005b       0x2d d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strlen.o)
+ .comment       0x000000000000005b       0x2d d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(tolower.o)
+ .comment       0x000000000000005b       0x2d d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(toupper.o)
+ .comment       0x000000000000005b       0x2d d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(errno.o)
+ .comment       0x000000000000005b       0x2d d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(_Exit.o)
+ .comment       0x000000000000005b       0x2d d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__int_vfprintf.o)
+
+.stack.descriptors.hdr
+                0x0000000000000000      0x10a
+ .stack.descriptors.hdr
+                0x0000000000000000        0xe d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(exit.o)
+ .stack.descriptors.hdr
+                0x000000000000000e        0xe d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__sio_printf_doux.o)
+ .stack.descriptors.hdr
+                0x000000000000001c        0xe d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_d.o)
+ .stack.descriptors.hdr
+                0x000000000000002a        0xe d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_o.o)
+ .stack.descriptors.hdr
+                0x0000000000000038        0xe d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_s.o)
+ .stack.descriptors.hdr
+                0x0000000000000046        0xe d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_u.o)
+ .stack.descriptors.hdr
+                0x0000000000000054        0xe d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_x.o)
+ .stack.descriptors.hdr
+                0x0000000000000062        0xe d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__pop_int.o)
+ .stack.descriptors.hdr
+                0x0000000000000070        0xe d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__printf_core.o)
+ .stack.descriptors.hdr
+                0x000000000000007e        0xe d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fputc.o)
+ .stack.descriptors.hdr
+                0x000000000000008c        0xe d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(stdout.o)
+ .stack.descriptors.hdr
+                0x000000000000009a        0xe d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strlen.o)
+ .stack.descriptors.hdr
+                0x00000000000000a8        0xe d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(tolower.o)
+ .stack.descriptors.hdr
+                0x00000000000000b6        0xe d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(toupper.o)
+ .stack.descriptors.hdr
+                0x00000000000000c4        0xe d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(errno.o)
+ .stack.descriptors.hdr
+                0x00000000000000d2        0xe d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(_Exit.o)
+ .stack.descriptors.hdr
+                0x00000000000000e0        0xe d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__int_vfprintf.o)
+ .stack.descriptors.hdr
+                0x00000000000000ee        0xe d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+ .stack.descriptors.hdr
+                0x00000000000000fc        0xe d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(exit.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__sio_printf_doux.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_d.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_o.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_s.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_u.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_x.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__pop_int.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__printf_core.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fputc.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(stdout.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strlen.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(tolower.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(toupper.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(errno.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(_Exit.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__int_vfprintf.o)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0x88
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x48 build/default/debug/interrupts.o
+ .debug_aranges
+                0x0000000000000048       0x20 build/default/debug/adc.o
+ .debug_aranges
+                0x0000000000000068       0x20 build/default/debug/adc_test.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000      0xfdc
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0x5f4 D:/x-micros/x-ide/setup/packs/Microchip/ATmega_DFP/3.1.264/xc8/avr/lib/avr5/crtatmega328p.o
+ .debug_info    0x00000000000005f4      0x45b build/default/debug/interrupts.o
+ .debug_info    0x0000000000000a4f      0x2be build/default/debug/adc.o
+ .debug_info    0x0000000000000d0d      0x2cf build/default/debug/adc_test.o
+
+.debug_abbrev   0x0000000000000000      0x7c1
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x5a2 D:/x-micros/x-ide/setup/packs/Microchip/ATmega_DFP/3.1.264/xc8/avr/lib/avr5/crtatmega328p.o
+ .debug_abbrev  0x00000000000005a2       0xe3 build/default/debug/interrupts.o
+ .debug_abbrev  0x0000000000000685       0x8d build/default/debug/adc.o
+ .debug_abbrev  0x0000000000000712       0xaf build/default/debug/adc_test.o
+
+.debug_line     0x0000000000000000      0x452
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000      0x134 D:/x-micros/x-ide/setup/packs/Microchip/ATmega_DFP/3.1.264/xc8/avr/lib/avr5/crtatmega328p.o
+ .debug_line    0x0000000000000134      0x1bf build/default/debug/interrupts.o
+ .debug_line    0x00000000000002f3       0xd3 build/default/debug/adc.o
+ .debug_line    0x00000000000003c6       0x8c build/default/debug/adc_test.o
+
+.debug_frame    0x0000000000000000       0xdc
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x84 build/default/debug/interrupts.o
+ .debug_frame   0x0000000000000084       0x24 build/default/debug/adc.o
+ .debug_frame   0x00000000000000a8       0x34 build/default/debug/adc_test.o
+
+.debug_str      0x0000000000000000      0x213
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x208 D:/x-micros/x-ide/setup/packs/Microchip/ATmega_DFP/3.1.264/xc8/avr/lib/avr5/crtatmega328p.o
+ .debug_str     0x0000000000000208        0x0 build/default/debug/interrupts.o
+ .debug_str     0x0000000000000208        0x0 build/default/debug/adc.o
+ .debug_str     0x0000000000000208        0xb build/default/debug/adc_test.o
+
+.debug_loc      0x0000000000000000       0xe4
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0x85 build/default/debug/interrupts.o
+ .debug_loc     0x0000000000000085       0x3b build/default/debug/adc.o
+ .debug_loc     0x00000000000000c0       0x24 build/default/debug/adc_test.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000       0x58
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x38 build/default/debug/interrupts.o
+ .debug_ranges  0x0000000000000038       0x10 build/default/debug/adc.o
+ .debug_ranges  0x0000000000000048       0x10 build/default/debug/adc_test.o
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(dist/default/debug/task10_2.X.debug.elf elf32-avr)
+LOAD linker stubs
+LOAD data_init
+
+.note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40 D:/x-micros/x-ide/setup/packs/Microchip/ATmega_DFP/3.1.264/xc8/avr/lib/avr5/crtatmega328p.o
+
+.bss.int1_callback
+                0x0000000000800149        0x2
+ .bss.int1_callback
+                0x0000000000800149        0x2 build/default/debug/interrupts.o
+                0x0000000000800149                int1_callback
+
+.bss.int0_callback
+                0x000000000080014b        0x2
+ .bss.int0_callback
+                0x000000000080014b        0x2 build/default/debug/interrupts.o
+                0x000000000080014b                int0_callback
+
+.bss.__stdout   0x000000000080014f        0x2
+ .bss.__stdout  0x000000000080014f        0x2 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(stdout.o)
+
+.text.vfpfcnvrt
+                0x00000000000000da      0x3fc
+ .text.vfpfcnvrt
+                0x00000000000000da      0x3fc d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__printf_core.o)
+                0x00000000000000da                vfpfcnvrt
+
+.text.__fmt_x   0x00000000000004d6      0x1dc
+ .text.__fmt_x  0x00000000000004d6      0x1dc d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_x.o)
+                0x00000000000004d6                __fmt_x_needed
+                0x00000000000004d6                __fmt_x
+
+.text.__fmt_d   0x00000000000006b2       0xe4
+ .text.__fmt_d  0x00000000000006b2       0xe4 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_d.o)
+                0x00000000000006b2                __fmt_d
+                0x00000000000006b2                __fmt_d_needed
+
+.text.__pop_int
+                0x0000000000000796       0xd0
+ .text.__pop_int
+                0x0000000000000796       0xd0 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__pop_int.o)
+                0x0000000000000796                __pop_int_needed
+                0x0000000000000796                __pop_int
+
+.text.__cvt_u   0x0000000000000866       0xca
+ .text.__cvt_u  0x0000000000000866       0xca d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_u.o)
+                0x0000000000000866                __cvt_u
+
+.text.__fmt_o   0x0000000000000930       0xb2
+ .text.__fmt_o  0x0000000000000930       0xb2 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_o.o)
+                0x0000000000000930                __fmt_o
+                0x0000000000000930                __fmt_o_needed
+
+.text.fputc     0x00000000000009e2       0x98
+ .text.fputc    0x00000000000009e2       0x98 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fputc.o)
+                0x00000000000009e2                fputc
+                0x00000000000009e2                putc
+
+.text.__fmt_u   0x0000000000000a7a       0x8e
+ .text.__fmt_u  0x0000000000000a7a       0x8e d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_u.o)
+                0x0000000000000a7a                __fmt_u_needed
+                0x0000000000000a7a                __fmt_u
+
+.text.__printf_core
+                0x0000000000000b08       0x78
+ .text.__printf_core
+                0x0000000000000b08       0x78 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__printf_core.o)
+                0x0000000000000b08                __printf_core
+
+.text.__pad     0x0000000000000b80       0x72
+ .text.__pad    0x0000000000000b80       0x72 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__printf_core.o)
+                0x0000000000000b80                __pad
+
+.text.analogRead
+                0x0000000000000bf2       0x6e
+ .text.analogRead
+                0x0000000000000bf2       0x6e build/default/debug/adc.o
+                0x0000000000000bf2                analogRead
+
+.text.read_prec_or_width
+                0x0000000000000c60       0x5c
+ .text.read_prec_or_width
+                0x0000000000000c60       0x5c d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__printf_core.o)
+
+.text.__fmt_s   0x0000000000000cbc       0x54
+ .text.__fmt_s  0x0000000000000cbc       0x54 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_s.o)
+                0x0000000000000cbc                __fmt_s
+                0x0000000000000cbc                __fmt_0_needed
+                0x0000000000000cbc                __fmt_s_needed
+
+.text.libgcc.div
+                0x0000000000000d10       0x44
+ .text.libgcc.div
+                0x0000000000000d10       0x44 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+                0x0000000000000d10                __udivmodsi4
+
+.text.__fmt_state
+                0x0000000000000d54       0x40
+ .text.__fmt_state
+                0x0000000000000d54       0x40 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__printf_core.o)
+                0x0000000000000d54                __fmt_state
+
+.text.__out     0x0000000000000d94       0x3a
+ .text.__out    0x0000000000000d94       0x3a d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__printf_core.o)
+                0x0000000000000d94                __out
+
+.text.libgcc.prologue
+                0x0000000000000dce       0x38
+ .text.libgcc.prologue
+                0x0000000000000dce       0x38 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+                0x0000000000000dce                __prologue_saves__
+
+.text.libgcc.prologue
+                0x0000000000000e06       0x36
+ .text.libgcc.prologue
+                0x0000000000000e06       0x36 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+                0x0000000000000e06                __epilogue_restores__
+
+.text.__wrap_printf
+                0x0000000000000e3c       0x30
+ .text.__wrap_printf
+                0x0000000000000e3c       0x30 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__sio_printf_doux.o)
+                0x0000000000000e3c                _printf_cdopuxX
+
+.text.__vfprintf
+                0x0000000000000e6c       0x30
+ .text.__vfprintf
+                0x0000000000000e6c       0x30 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__int_vfprintf.o)
+                0x0000000000000e6c                __vfprintf
+
+.text.main      0x0000000000000e9c       0x20
+ .text.main     0x0000000000000e9c       0x20 build/default/debug/adc_test.o
+                0x0000000000000e9c                main
+
+.text.strlen    0x0000000000000ebc       0x1c
+ .text.strlen   0x0000000000000ebc       0x1c d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strlen.o)
+                0x0000000000000ebc                strlen
+
+.text.__vector_1
+                0x0000000000000ed8       0x16
+ .text.__vector_1
+                0x0000000000000ed8       0x16 build/default/debug/interrupts.o
+                0x0000000000000ed8                __vector_1
+
+.text.__vector_2
+                0x0000000000000eee       0x16
+ .text.__vector_2
+                0x0000000000000eee       0x16 build/default/debug/interrupts.o
+                0x0000000000000eee                __vector_2
+
+.text.exit      0x0000000000000f04       0x16
+ .text.exit     0x0000000000000f04       0x16 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(exit.o)
+                0x0000000000000f04                exit
+
+.text.toupper   0x0000000000000f1a       0x12
+ .text.toupper  0x0000000000000f1a       0x12 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(toupper.o)
+                0x0000000000000f1a                toupper
+
+.text.tolower   0x0000000000000f2c       0x10
+ .text.tolower  0x0000000000000f2c       0x10 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(tolower.o)
+                0x0000000000000f2c                tolower
+
+.text           0x0000000000000f3c        0x4
+ .text          0x0000000000000f3c        0x4 D:/x-micros/x-ide/setup/packs/Microchip/ATmega_DFP/3.1.264/xc8/avr/lib/avr5/crtatmega328p.o
+                0x0000000000000f3c                __vector_22
+                0x0000000000000f3c                __vector_24
+                0x0000000000000f3c                __vector_12
+                0x0000000000000f3c                __bad_interrupt
+                0x0000000000000f3c                __vector_6
+                0x0000000000000f3c                __vector_3
+                0x0000000000000f3c                __vector_23
+                0x0000000000000f3c                __vector_25
+                0x0000000000000f3c                __vector_11
+                0x0000000000000f3c                __vector_13
+                0x0000000000000f3c                __vector_17
+                0x0000000000000f3c                __vector_19
+                0x0000000000000f3c                __vector_7
+                0x0000000000000f3c                __vector_5
+                0x0000000000000f3c                __vector_4
+                0x0000000000000f3c                __vector_9
+                0x0000000000000f3c                __vector_21
+                0x0000000000000f3c                __vector_15
+                0x0000000000000f3c                __vector_8
+                0x0000000000000f3c                __vector_14
+                0x0000000000000f3c                __vector_10
+                0x0000000000000f3c                __vector_16
+                0x0000000000000f3c                __vector_18
+                0x0000000000000f3c                __vector_20
+
+.text._Exit     0x0000000000000f40        0x4
+ .text._Exit    0x0000000000000f40        0x4 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(_Exit.o)
+                0x0000000000000f40                _Exit
+
+.text.__dummy_fini
+                0x0000000000000f44        0x2
+ .text.__dummy_fini
+                0x0000000000000f44        0x2 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(exit.o)
+                0x0000000000000f44                _fini
+
+.text.__dummy_funcs_on_exit
+                0x0000000000000f46        0x2
+ .text.__dummy_funcs_on_exit
+                0x0000000000000f46        0x2 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(exit.o)
+                0x0000000000000f46                __funcs_on_exit
+
+.text.__dummy_simulator_exit
+                0x0000000000000f48        0x2
+ .text.__dummy_simulator_exit
+                0x0000000000000f48        0x2 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(exit.o)
+                0x0000000000000f48                __simulator_exit
+
+.rodata         0x0000000000800102       0x24 load address 0x0000000000000f4a
+ .rodata        0x0000000000800102       0x24 build/default/debug/adc_test.o
+
+.rodata.state_table
+                0x0000000000800126       0x16 load address 0x0000000000000f6e
+ .rodata.state_table
+                0x0000000000800126       0x16 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__printf_core.o)
+
+.rodata.nuls.2781
+                0x000000000080013c        0x7 load address 0x0000000000000f84
+ .rodata.nuls.2781
+                0x000000000080013c        0x7 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__fmt_s.o)
+
+.rodata.nilstr.2962
+                0x0000000000800143        0x6 load address 0x0000000000000f8b
+ .rodata.nilstr.2962
+                0x0000000000800143        0x6 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(__printf_core.o)
+
+.data._stdout   0x000000000080014d        0x2 load address 0x0000000000000f91
+ .data._stdout  0x000000000080014d        0x2 d:/x-micros/xc8/setup/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(stdout.o)
+                0x000000000080014d                _stdout
