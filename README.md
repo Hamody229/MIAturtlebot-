@@ -106,6 +106,6 @@ rosrun my_robot_package imu_to_euler_publisher.py
 ```
 ### And to show this data 
 ```
-rostopic echo /imu/eular
+rostopic echo /imu/euler
 ```
 
