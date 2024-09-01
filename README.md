@@ -1,13 +1,13 @@
 # MIAturtlebot-
 ***********************
-## How to install GAZEBO *
+## How to install GAZEBO 
 ***********************
 https://github.com/Abdalla-El-gohary/Gazebo-Installation/tree/main
 
 __________________________________________________________________________________________
 
 ***********************************
-## Start with turtlebot 3 simulation *
+## Start with turtlebot 3 simulation 
 ***********************************
 first install turtlebot 3 :
 ```
@@ -35,14 +35,14 @@ sudo apt-get install ros-noetic-turtlebot3-msgs
 ```
 
 *******************************************
-Now launch the turtle model and sim world *
+Now launch the turtle model and sim world 
 *******************************************
 ```
  export TURTLEBOT3_MODEL=burger
  roslaunch turtlebot3_gazebo turtlebot3_world.launch
 ```
 
-###some issues you may face :
+### some issues you may face :
 
 ```
 Resource not found: turtlebot3_description
@@ -52,13 +52,13 @@ ROS path [2]=/opt/ros/noetic/share
 The traceback for the exception was written to the log file
 ```
 
-###How to solve it : 
+### How to solve it : 
 ```
 sudo apt-get install ros-noetic-turtlebot3-description
 ```
 
 *************************************
-How to control the bot with keyboard *
+How to control the bot with keyboard 
 *************************************
 
 ```
@@ -69,4 +69,25 @@ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ***********************************
 ## Read IMU data 
 ***********************************
+```
+rostopic echo /imu
+```
+```
+rosrun rviz rviz 
+```
+Open RViz and go to the "Global Options" panel on the left.
+Set the "Fixed Frame" to map.
+Make sure that the data you want to visualize is being published relative to the map frame.
+******
+And then 
+Add an IMU Display:
 
+  Click on the "Add" button in the bottom left of the RViz window.
+  In the dialog that appears, select "By topic."
+  Browse to /imu and select the IMU display type.
+  Click "OK."
+
+### to run the map on rviz use :
+```
+roslaunch turtlebot3_slam turtlebot3_slam.launch
+```
