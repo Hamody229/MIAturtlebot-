@@ -57,3 +57,7 @@ The traceback for the exception was written to the log file
 sudo apt-get install ros-noetic-turtlebot3-description
 ```
 
+**************************
+How to control the bot with keyboard 
+**************************
+
