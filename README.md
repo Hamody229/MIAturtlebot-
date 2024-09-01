@@ -98,3 +98,14 @@ In RViz, click the Add button in the bottom left.
 Choose By topic.
 Select /scan under LaserScan.
 ```
+*********
+## To publish euler data 
+*********
+```
+rosrun my_robot_package imu_to_euler_publisher.py 
+```
+### And to show this data 
+```
+rostopic echo /imu/eular
+```
+
