@@ -10,10 +10,11 @@ ________________________________________________________________________________
 ##Start with turtlebot 3 simulation *
 ***********************************
 first install turtlebot 3 :
-$ cd ~/catkin_ws/src/
-$ git clone -b kinetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
-$ cd ~/catkin_ws && catkin_make
-
+```
+ $ cd ~/catkin_ws/src/
+ $ git clone -b kinetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+ $ cd ~/catkin_ws && catkin_make
+```
 ###some issues you may face and how to solve it :
 CMake Error at /opt/ros/noetic/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
   Could not find a package configuration file provided by "turtlebot3_msgs"
