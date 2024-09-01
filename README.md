@@ -1,2 +1,30 @@
 # MIAturtlebot-
- At the first we need to know how to install Gazebo
+***********************
+##How to install GAZEBO *
+***********************
+https://github.com/Abdalla-El-gohary/Gazebo-Installation/tree/main
+
+__________________________________________________________________________________________
+
+***********************************
+##Start with turtlebot 3 simulation *
+***********************************
+first install turtlebot 3 :
+$ cd ~/catkin_ws/src/
+$ git clone -b kinetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+$ cd ~/catkin_ws && catkin_make
+
+###some issues you may face and how to solve it :
+CMake Error at /opt/ros/noetic/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
+  Could not find a package configuration file provided by "turtlebot3_msgs"
+  with any of the following names:
+
+    turtlebot3_msgsConfig.cmake
+    turtlebot3_msgs-config.cmake
+
+  Add the installation prefix of "turtlebot3_msgs" to CMAKE_PREFIX_PATH or
+  set "turtlebot3_msgs_DIR" to a directory containing one of the above files.
+  If "turtlebot3_msgs" provides a separate development package or SDK, be
+  sure it has been installed.
+Call Stack (most recent call first):
+  turtlebot3_simulations/turtlebot3_fake/CMakeLists.txt:10 (find_package)
