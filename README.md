@@ -98,3 +98,14 @@ In RViz, click the Add button in the bottom left.
 Choose By topic.
 Select /scan under LaserScan.
 ```
+
+**********
+## Read IMU and convert it to YAW 
+***********
+```
+rosrun my_robot_package imu_to_euler_publisher.py 
+```
+### to preview euler data 
+```
+rostopic echo /imu/eular
+```
