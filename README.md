@@ -11,9 +11,9 @@ ________________________________________________________________________________
 ***********************************
 first install turtlebot 3 :
 ```
- $ cd ~/catkin_ws/src/
- $ git clone -b kinetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
- $ cd ~/catkin_ws && catkin_make
+  cd ~/catkin_ws/src/
+  git clone -b kinetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+  cd ~/catkin_ws && catkin_make
 ```
 ###some issues you may face :
 ```
@@ -38,8 +38,8 @@ sudo apt-get install ros-noetic-turtlebot3-msgs
 Now launch the turtle model and sim world *
 *******************************************
 ```
-$ export TURTLEBOT3_MODEL=burger
-$ roslaunch turtlebot3_gazebo turtlebot3_world.launch
+ export TURTLEBOT3_MODEL=burger
+ roslaunch turtlebot3_gazebo turtlebot3_world.launch
 ```
 
 ###some issues you may face :
