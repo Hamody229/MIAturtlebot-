@@ -39,7 +39,7 @@ Now launch the turtle model and sim world *
 *******************************************
 ```
 $ export TURTLEBOT3_MODEL=burger
-$ roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
+$ roslaunch turtlebot3_gazebo turtlebot3_world.launch
 ```
 
 ###some issues you may face :
