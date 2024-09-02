@@ -75,9 +75,9 @@ rostopic echo /imu
 ```
 rosrun rviz rviz 
 ```
-Open RViz and go to the "Global Options" panel on the left.
-Set the "Fixed Frame" to map.
-Make sure that the data you want to visualize is being published relative to the map frame.
+ - Open RViz and go to the "Global Options" panel on the left.
+ - Set the "Fixed Frame" to map.
+ - Make sure that the data you want to visualize is being published relative to the map frame.
 ******
 And then 
 Add an IMU Display:
