@@ -23,7 +23,7 @@ This project involves designing and integrating an speed control module for the 
 
 ### Wiring
 
-![alt text](7dc49331-221c-4503-b919-28d0fe6f5f88.jpg)
+![alt text](image/7dc49331-221c-4503-b919-28d0fe6f5f88.jpg)
 
 ## Software Setup
 
