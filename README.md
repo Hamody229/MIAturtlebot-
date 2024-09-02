@@ -126,13 +126,13 @@ The process noise covariance QQ represents the uncertainty in the system model i
 
 -The Two Main Steps of the Kalman Filter
 
-  - Prediction Step: In this step, the Kalman Filter predicts the next state (x^k−x^k−​) based on the previous estimate (x^k−1x^k−1​) and updates the uncertainty (covariance Pk−Pk−​).
+- Prediction Step: In this step, the Kalman Filter predicts the next state (x^k−x^k−​) based on the previous estimate (x^k−1x^k−1​) and updates the uncertainty (covariance Pk−Pk−​).
   - x^k−=x^k−1
   - x^k−​=x^k−1​
   - Pk−=Pk−1+Q
   - Pk−​=Pk−1​+Q
 
-  - Update Step: In this step, the Kalman Filter corrects its prediction by incorporating the new measurement (zkzk​) and updates the state (x^kx^k​) and the uncertainty (PkPk​).
+- Update Step: In this step, the Kalman Filter corrects its prediction by incorporating the new measurement (zkzk​) and updates the state (x^kx^k​) and the uncertainty (PkPk​).
   - Kk=Pk−Pk−+R
   - Kk​=Pk−​+RPk−​​
   - x^k=x^k−+Kk⋅(zk−x^k−)
