@@ -140,7 +140,7 @@ The process noise covariance QQ represents the uncertainty in the system model i
   - Pk=(1−Kk)⋅Pk−
   - Pk​=(1−Kk​)⋅Pk−​
 
--Tuning the Kalman Filter Parameters
+- Tuning the Kalman Filter Parameters
 
   - Process Noise Covariance (QQ):
         If the system's actual behavior varies a lot due to external factors, you should increase QQ.
