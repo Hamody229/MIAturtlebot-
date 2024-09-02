@@ -81,12 +81,12 @@ Make sure that the data you want to visualize is being published relative to the
 ******
 And then 
 Add an IMU Display:
-```
+
   Click on the "Add" button in the bottom left of the RViz window.
   In the dialog that appears, select "By topic."
   Browse to /imu and select the IMU display type.
   Click "OK."
-```
+
 ### to run the map on rviz use :
 ```
 roslaunch turtlebot3_slam turtlebot3_slam.launch
