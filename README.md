@@ -67,6 +67,7 @@ roslaunch turtlebot3_slam turtlebot3_slam.launch
 - Choose By topic.
 - Select /scan under LaserScan.
 
+![Screenshot from 2024-09-02 20-48-47](https://github.com/user-attachments/assets/ae8a2b65-86ec-4509-ab91-1c8c534b6e9e)
 
 **********
 ## Read IMU and convert it to YAW 
