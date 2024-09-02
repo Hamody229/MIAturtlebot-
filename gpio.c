@@ -17,7 +17,7 @@ typedef struct {
 
 void PinMode(NPin npin, bool value) {
     if (value) {
-        *(npin.ddr) |= (1 << npin.pin);
+        *(npin.ddr) |= (1 << npin.pin); // true--output , false--input
     } else {
         *(npin.ddr) &= ~(1 << npin.pin);
     }
@@ -25,18 +25,15 @@ void PinMode(NPin npin, bool value) {
 
 void DigitalWrite(NPin npin, bool value) {
     if (value) {
-        *(npin.port) |= (1 << npin.pin);  // Set pin high
+        *(npin.port) |= (1 << npin.pin);  // true--high , false --low
     } else {
-        *(npin.port) &= ~(1 << npin.pin);  // Set pin low
+        *(npin.port) &= ~(1 << npin.pin);  
     }
 }
 
 bool DigitalRead(NPin npin) {
-    return (*(npin.port - 2) & (1 << npin.pin)) != 0;  // Return true if pin is high
+    return (*(npin.port - 2) & (1 << npin.pin)) != 0;  // true--high , false --low
 }
-
-
-
 
 void Timer(uint16_t comparevalue) {
     TCCR1B |= (1 << WGM12);
@@ -49,9 +46,13 @@ void Timer(uint16_t comparevalue) {
 }
 
 ISR(TIMER1_COMPA_vect) {
-    // Toggle an LED or execute other code every time the timer matches
+    // Test
     PORTB ^= (1 << PORTB0);  // Toggle the LED on pin PB0
 }
+
+
+
+
 
 
 
@@ -82,6 +83,9 @@ int main(void) {
     bool x = DigitalRead(D1) ;
     DigitalWrite(D2,!x) ;
     
+    Timer(249);
+    
+    sei();
 
     
     while (1) {
