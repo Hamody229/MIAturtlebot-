@@ -103,70 +103,49 @@ rostopic echo /imu/eular
 
 This is the current best estimate of the system’s state at time step kk. In your case, it is the estimate of the Yaw angle.
 
-    x^k−1x^k−1​: The estimate of the Yaw angle at the previous time step.
-    x^kx^k​: The updated (corrected) estimate of the Yaw angle after considering the new measurement.
+  - x^k−1x^k−1​: The estimate of the Yaw angle at the previous time step.
+  - x^kx^k​: The updated (corrected) estimate of the Yaw angle after considering the new measurement.
 
 2. State Covariance (PkPk​)
 
 The state covariance PkPk​ represents the uncertainty or variance in the estimated state. A higher PkPk​ means less confidence in the estimate.
 
-    Pk−1Pk−1​: The uncertainty in the state estimate at the previous time step.
-    Pk−Pk−​: The predicted uncertainty before the new measurement is incorporated.
-    PkPk​: The updated uncertainty after the new measurement is incorporated.
+  - Pk−1Pk−1​: The uncertainty in the state estimate at the previous time step.
+  - Pk−Pk−​: The predicted uncertainty before the new measurement is incorporated.
+  - PkPk​: The updated uncertainty after the new measurement is incorporated.
 
 This parameter helps the Kalman Filter "balance" how much to trust the prediction versus the new measurement.
+
 3. Process Noise Covariance (QQ)
 
-The process noise covariance QQ represents the uncertainty in the system model itself, i.e., how much the system (Yaw angle) can vary from the prediction due to unknown influences (e.g., sensor drift, mechanical noise).
+The process noise covariance QQ represents the uncertainty in the system model itself, i.e., how much the system (Yaw angle) can vary from the prediction due to unknown influences (e.g., sensor     drift, mechanical noise).
 
-    Larger QQ: Indicates more uncertainty in the process model. The Kalman Filter will trust the measurements more.
-    Smaller QQ: Indicates more confidence in the process model, and the Kalman Filter will rely more on its predictions.
+  - Larger QQ: Indicates more uncertainty in the process model. The Kalman Filter will trust the measurements more.
+  - Smaller QQ: Indicates more confidence in the process model, and the Kalman Filter will rely more on its predictions.
 
-4. Measurement Noise Covariance (RR)
 
-The measurement noise covariance RR represents the uncertainty in the sensor measurements (in this case, the Yaw angle from the IMU).
+-The Two Main Steps of the Kalman Filter
 
-    Larger RR: Indicates more noise in the measurements. The Kalman Filter will trust the predictions more.
-    Smaller RR: Indicates less noise in the measurements. The Kalman Filter will rely more on the new sensor data.
+  - Prediction Step: In this step, the Kalman Filter predicts the next state (x^k−x^k−​) based on the previous estimate (x^k−1x^k−1​) and updates the uncertainty (covariance Pk−Pk−​).
+  - x^k−=x^k−1
+  - x^k−​=x^k−1​
+  - Pk−=Pk−1+Q
+  - Pk−​=Pk−1​+Q
 
-5. Kalman Gain (KkKk​)
+  - Update Step: In this step, the Kalman Filter corrects its prediction by incorporating the new measurement (zkzk​) and updates the state (x^kx^k​) and the uncertainty (PkPk​).
+  - Kk=Pk−Pk−+R
+  - Kk​=Pk−​+RPk−​​
+  - x^k=x^k−+Kk⋅(zk−x^k−)
+  - x^k​=x^k−​+Kk​⋅(zk​−x^k−​)
+  - Pk=(1−Kk)⋅Pk−
+  - Pk​=(1−Kk​)⋅Pk−​
 
-The Kalman Gain is a dynamically calculated value that determines how much weight to give to the new measurement versus the current state estimate.
-Kk=Pk−Pk−+R
-Kk​=Pk−​+RPk−​​
+-Tuning the Kalman Filter Parameters
 
-    If KkKk​ is close to 1, it means the Kalman Filter gives more weight to the new measurement because the measurements are more reliable (small RR).
-    If KkKk​ is close to 0, it means the filter trusts the prediction more than the measurement because the measurement noise RR is too high.
-
-6. Measurement (zkzk​)
-
-This is the actual sensor reading at time step kk (in your case, the latest Yaw angle from the IMU).
-
-    zkzk​: The new Yaw angle measurement from the IMU.
-    x^k−x^k−​: The predicted Yaw angle before incorporating the measurement.
-
-The Two Main Steps of the Kalman Filter
-
-    Prediction Step: In this step, the Kalman Filter predicts the next state (x^k−x^k−​) based on the previous estimate (x^k−1x^k−1​) and updates the uncertainty (covariance Pk−Pk−​).
-    x^k−=x^k−1
-    x^k−​=x^k−1​
-    Pk−=Pk−1+Q
-    Pk−​=Pk−1​+Q
-
-    Update Step: In this step, the Kalman Filter corrects its prediction by incorporating the new measurement (zkzk​) and updates the state (x^kx^k​) and the uncertainty (PkPk​).
-    Kk=Pk−Pk−+R
-    Kk​=Pk−​+RPk−​​
-    x^k=x^k−+Kk⋅(zk−x^k−)
-    x^k​=x^k−​+Kk​⋅(zk​−x^k−​)
-    Pk=(1−Kk)⋅Pk−
-    Pk​=(1−Kk​)⋅Pk−​
-
-Tuning the Kalman Filter Parameters
-
-    Process Noise Covariance (QQ):
+  - Process Noise Covariance (QQ):
         If the system's actual behavior varies a lot due to external factors, you should increase QQ.
         If the system is relatively stable and predictable, use a smaller QQ.
 
-    Measurement Noise Covariance (RR):
+  - Measurement Noise Covariance (RR):
         If the sensor data is very noisy, increase RR to trust the predictions more.
         If the sensor data is reliable, decrease RR so that the Kalman Filter gives more weight to the measurements.
