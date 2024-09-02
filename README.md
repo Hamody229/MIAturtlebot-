@@ -222,3 +222,7 @@ The process noise covariance QQ represents the uncertainty in the system model i
 
    - Once the topics are added and configured, you should see live plots of the IMU data and filtered data.
    - Monitor the plots in real-time to analyze the data being published by your nodes.
+     
+![Screenshot from 2024-09-02 20-59-12](https://github.com/user-attachments/assets/a374614b-352f-4542-b76e-56c7eb19d525)
+
+![]
