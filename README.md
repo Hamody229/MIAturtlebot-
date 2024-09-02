@@ -124,7 +124,7 @@ The process noise covariance QQ represents the uncertainty in the system model i
   - Smaller QQ: Indicates more confidence in the process model, and the Kalman Filter will rely more on its predictions.
 
 
-- The Two Main Steps of the Kalman Filter
+- ### The Two Main Steps of the Kalman Filter
 
 - Prediction Step: In this step, the Kalman Filter predicts the next state (x^k−x^k−​) based on the previous estimate (x^k−1x^k−1​) and updates the uncertainty (covariance Pk−Pk−​).
   - x^k−=x^k−1
