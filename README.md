@@ -69,6 +69,13 @@ void PWM_Timer(uint16_t pulse_width, uint8_t timer, uint8_t pwm_pin) {
 ```
 
 2. **ADC (Analog to Digital Converter):**
-   - **Function:** Reads analog values from the potentiometer.
+   - **Description:** The ADC driver allows reading analog signals (0-5V).
+   - **Usage:** Include `"adc.h"` in your code. Use the `analogRead(ADCPin pin)` function to read the analog value from a specified ADC pin (ranging from `ADC0` to `ADC5`). The function returns a value between 0 to 1023, corresponding to the input voltage.
 
 3. **Interrupts:**
+   - **Description:** The interrupt functions manage enabling/disabling interrupts and attaching/detaching callback functions to specific interrupt pins.
+   - **Usage:** Include `"interrupts.h"` to access the following functions:
+     - `enableInterrupts()` and `disableInterrupts()` to globally control interrupts.
+     - `attachInterrupt(InterruptPin pin, void_func callback, InterruptMode mode)` to attach an interrupt to a specified pin (`INT0` or `INT1`) with a trigger mode (`LOW`, `CHANGE`, `RISING`, `FALLING`).
+     - `detachInterrupt(InterruptPin pin)` to remove the interrupt from a pin.
+   - **Note:** When attaching an interrupt, the `callback` should be a void function, referenced without parentheses `()`.
