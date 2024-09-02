@@ -177,7 +177,12 @@ The process noise covariance QQ represents the uncertainty in the system model i
 ************
 ## **Running Nodes and Visualizing Data with RQT**
 
-1. **Run the Kalman Filter Node:**
+1. **Install the package for rqt_multiplot:**
+```
+   sudo apt-get install ros-noetic-rqt-multiplot
+```
+
+2. **Run the Kalman Filter Node:**
 
    In a new terminal,  run the Kalman filter node to filter the IMU yaw data:
 
@@ -185,7 +190,7 @@ The process noise covariance QQ represents the uncertainty in the system model i
    rosrun my_robot_package yaw_kalman_filter_node.py
 ```
 
-2. **Run the IMU to Euler Publisher Node:**
+3. **Run the IMU to Euler Publisher Node:**
 
    In another terminal, start the IMU to Euler publisher node to convert IMU data to Euler angles and publish it:
 
@@ -193,7 +198,7 @@ The process noise covariance QQ represents the uncertainty in the system model i
    rosrun my_robot_package imu_to_euler_node.py
 ```   
 
-3. **Open RQT Multiplot:**
+4. **Open RQT Multiplot:**
 
    To visualize the data from the nodes, open RQT Multiplot in a new terminal:
 
@@ -201,7 +206,7 @@ The process noise covariance QQ represents the uncertainty in the system model i
    rqt_multiplot
 ```
 
-4. **Configure the Multiplot Settings:**
+5. **Configure the Multiplot Settings:**
 
    - Open the curve plot settings, then add a new curve.
    - Choose the topic for each axis: x-axis -> clock, y-axis -> imu/euler or filtered_yaw.
