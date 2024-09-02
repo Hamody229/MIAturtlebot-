@@ -94,6 +94,7 @@ rostopic echo /imu/eular
         - Sensor Fusion: When combining data from multiple sensors (e.g., IMU and LiDAR), the presence of noise in one sensor can affect the fusion process. Adding noise during development allows you           to refine your sensor fusion algorithms to handle these cases effectively.
         - Filtering Techniques: Many algorithms, such as Kalman filters or complementary filters, are designed to filter out noise. Testing these algorithms with noisy data helps in tuning them for             optimal performance.
     3. How to add Gaussian noise
+ -git the urdf file from github
 ```
 
 -git the urdf file from github
