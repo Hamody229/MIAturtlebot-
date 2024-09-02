@@ -81,7 +81,7 @@ rostopic echo /imu/eular
 ```
 
 *********
-## Gasussian noise 
+## Gaussian noise 
 
 - we will add some noise to our IMU in the URDF file by changing some numbers 
   Why adding this noise ?
