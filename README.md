@@ -19,8 +19,8 @@ first install turtlebot 3 :
 
 
 *******************************************
-Now launch the turtle model and sim world 
-*******************************************
+## Now launch the turtle model and sim world 
+
 ```
  export TURTLEBOT3_MODEL=burger
  roslaunch turtlebot3_gazebo turtlebot3_world.launch
