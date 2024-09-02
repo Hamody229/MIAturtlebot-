@@ -22,28 +22,14 @@ first install turtlebot 3 :
 ## Now launch the turtle model and sim world 
 
 ```
+ sudo apt-get install ros-noetic-turtlebot3-description
  export TURTLEBOT3_MODEL=burger
  roslaunch turtlebot3_gazebo turtlebot3_world.launch
 ```
 
-### some issues you may face :
-
-```
-Resource not found: turtlebot3_description
-ROS path [0]=/opt/ros/noetic/share/ros
-ROS path [1]=/home/hamody/catkin_ws/src
-ROS path [2]=/opt/ros/noetic/share
-The traceback for the exception was written to the log file
-```
-
-### How to solve it : 
-```
-sudo apt-get install ros-noetic-turtlebot3-description
-```
 
 *************************************
-How to control the bot with keyboard 
-*************************************
+## How to control the bot with keyboard 
 
 ```
 sudo apt-get install ros-noetic-turtlebot3-teleop
