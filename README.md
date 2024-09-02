@@ -50,7 +50,7 @@ rosrun rviz rviz
 - Make sure that the data you want to visualize is being published relative to the map frame.
 ******
 And then 
-Add an IMU Display:
+## Add an IMU Display:
 
 -  Click on the "Add" button in the bottom left of the RViz window.
 -  In the dialog that appears, select "By topic."
