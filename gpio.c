@@ -73,6 +73,8 @@ int main(void) {
     NPin D11= {&PORTB,&DDRB,3}  ;
     NPin D12= {&PORTB,&DDRB,4}  ;
     NPin D13= {&PORTB,&DDRB,5}  ;
+
+    //test
     PinMode(D0,true) ;
     PinMode(D1,false);
     PinMode(D2,true) ;
@@ -80,9 +82,7 @@ int main(void) {
     bool x = DigitalRead(D1) ;
     DigitalWrite(D2,!x) ;
     
-    Timer(249);
-    
-    sei();
+
     
     while (1) {
     }
