@@ -1,10 +1,9 @@
 # MiaTask10_1
 ***********************
 ## How to install GAZEBO 
-***********************
+
 https://github.com/Abdalla-El-gohary/Gazebo-Installation/tree/main
 
-__________________________________________________________________________________________
 
 ***********************************
 ## Start with turtlebot 3 simulation 
