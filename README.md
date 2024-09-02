@@ -97,7 +97,7 @@ rostopic echo /imu/eular
  
 ```
 
--git the urdf file from github
+git clone https://github.com/ROBOTIS-GIT/turtlebot3.git
 
 ```
 -Open the URDF File: Use a text editor to open the .urdf file you downloaded. Look for the <sensor> tags that define your IMU sensors.
