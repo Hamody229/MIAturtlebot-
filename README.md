@@ -158,7 +158,7 @@ The process noise covariance QQ represents the uncertainty in the system model i
    In a new terminal,  run the Kalman filter node to filter the IMU yaw data:
 
 ```
-   rosrun my_robot_package kalman.py
+   rosrun my_robot_package yaw_kalman_filter_node.py
 ```
 
 2. **Run the IMU to Euler Publisher Node:**
@@ -166,7 +166,7 @@ The process noise covariance QQ represents the uncertainty in the system model i
    In another terminal, start the IMU to Euler publisher node to convert IMU data to Euler angles and publish it:
 
 ```
-   rosrun my_robot_package imu_to_euler_publisher.py
+   rosrun my_robot_package imu_to_euler_node.py
 ```   
 
 3. **Open RQT Multiplot:**
