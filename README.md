@@ -75,29 +75,29 @@ rostopic echo /imu
 ```
 rosrun rviz rviz 
 ```
-Open RViz and go to the "Global Options" panel on the left.
-Set the "Fixed Frame" to map.
-Make sure that the data you want to visualize is being published relative to the map frame.
+- Open RViz and go to the "Global Options" panel on the left.
+- Set the "Fixed Frame" to map.
+- Make sure that the data you want to visualize is being published relative to the map frame.
 ******
 And then 
 Add an IMU Display:
-```
-  Click on the "Add" button in the bottom left of the RViz window.
-  In the dialog that appears, select "By topic."
-  Browse to /imu and select the IMU display type.
-  Click "OK."
-```
+
+-  Click on the "Add" button in the bottom left of the RViz window.
+-  In the dialog that appears, select "By topic."
+-  Browse to /imu and select the IMU display type.
+-  Click "OK."
+
 ### to run the map on rviz use :
 ```
 roslaunch turtlebot3_slam turtlebot3_slam.launch
 ```
 **********
 ### Add the LiDAR Data: 
-```
-In RViz, click the Add button in the bottom left.
-Choose By topic.
-Select /scan under LaserScan.
-```
+
+- In RViz, click the Add button in the bottom left.
+- Choose By topic.
+- Select /scan under LaserScan.
+
 
 **********
 ## Read IMU and convert it to YAW 
