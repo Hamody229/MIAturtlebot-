@@ -108,5 +108,33 @@ rosrun my_robot_package imu_to_euler_publisher.py
 ```
 rostopic echo /imu/euler
 ```
+## To add gaussian noise 
+*********
+-git the urdf file from github
+
+```
+git clone https://github.com/ROBOTIS-GIT/turtlebot3.git
+```
+-Open the URDF File: Use a text editor to open the .urdf file you downloaded. Look for the <sensor> tags that define your IMU sensors.
+-change this values due to the noise you want to add
+```
+ <type>gaussian</type>
+      <rate>
+        <mean>0.0</mean>
+        <stddev>1e-4</stddev>
+        <bias_mean>0.0000075</bias_mean>
+        <bias_stddev>1e-6</bias_stddev>
+      </rate>
+      <accel>
+        <mean>0.0</mean>
+        <stddev>1e-2</stddev>
+        <bias_mean>0.005</bias_mean>
+        <bias_stddev>1e-4</bias_stddev>
+      </accel>
+    </noise>
+```
+
+
+
 
 
