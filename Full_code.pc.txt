@@ -1,0 +1,110 @@
+```
+
+#include <avr/io.h>
+#include <avr/interrupt.h>
+#include <util/delay.h> // For delay functions
+
+#define F_CPU 16000000UL
+#define SS PB2
+#define MOSI PB3
+#define MISO PB4
+#define SCK PB5
+#define CONTROLLER_OF_SPEED PC2
+#define ENCODER PD2
+#define FORWARD PD6
+#define BACKWARD PD5
+
+
+
+volatile uint16_t encoder = 0;
+volatile uint16_t motor_rpm = 0;
+
+
+
+// ADC Functions
+void ADC_Init() {
+	ADMUX = (1 << REFS0);  
+	ADCSRA = (1 << ADEN) | (1 << ADPS2) | (1 << ADPS1); 
+}
+
+uint16_t ADC_Read(uint8_t channel) {
+	ADMUX = (ADMUX & 0xF0) | (channel & 0x0F); 
+	ADCSRA |= (1 << ADSC); 
+	while (ADCSRA & (1 << ADSC)); 
+	return ADCW; 
+}
+
+// TIMER1 PWM Functions
+void TIMER1_InitPWM() {
+	TCCR1A |= (1 << WGM11) | (1 << COM1A1); 
+	TCCR1B |= (1 << WGM12) | (1 << WGM13) | (1 << CS11); 
+	ICR1 = 19999;
+}
+
+void TIMER1_SetPWM(uint16_t duty) {
+	OCR1A = duty;
+}
+
+// External Interrupts (INT0) Functions
+void INT0_Init() {
+	EICRA = (1 << ISC00); 
+	EIMSK = (1 << INT0); 
+	sei();
+}
+
+// SPI Functions (Optional)
+void SPI_MasterInit(void) {
+	DDRB = (1 << PB3) | (1 << PB5) | (1 << PB2);
+	SPCR = (1 << SPE) | (1 << MSTR) | (1 << SPR0); 
+}
+
+uint8_t SPI_MasterTransmit(uint8_t bytes) {
+	SPDR = bytes; 
+	while (!(SPSR & (1 << SPIF)));
+	return SPDR; 
+}
+
+ISR(INT0_vect) {
+	encoder++; 
+}
+
+int main() {
+	ADC_Init();
+	TIMER1_InitPWM();
+	INT0_Init();
+	SPI_MasterInit();
+
+	uint16_t potValue;
+	uint16_t dutyCycle;
+	
+	DDRD = (1 << BACKWARD) | (1 << FORWARD);
+	DDRD &= ~(1 << ENCODER);
+	DDRC &= ~(1 << PC2);
+
+
+	while (1) {
+		potValue = ADC_Read(0); 
+		dutyCycle = (potValue * 20000) / 1023; 
+		TIMER1_SetPWM(dutyCycle); 
+
+		// Direction control logic
+		if (potValue > 512) {
+			PORTD |= (1 << FORWARD);
+			PORTD &= ~(1 << BACKWARD);
+			} else {
+			PORTD |= (1 << BACKWARD);
+			PORTD &= ~(1 << FORWARD);
+		}
+
+		_delay_ms(1000); 
+		motor_rpm = (encoder * 60); 
+		encoder = 0; 
+
+		SPI_MasterTransmit(motor_rpm >> 8); 
+		SPI_MasterTransmit(motor_rpm & 0xFF); 
+	}
+
+	return 0;
+}
+
+```
