@@ -32,6 +32,10 @@
 #define	XC_HEADER_TEMPLATE_H
 
 #include <xc.h> // include processor files - each processor file is guarded.  
+#include <avr/io.h>
+
+// Function prototypes
+void encoder_init(void);
 
 // TODO Insert appropriate #include <>
 

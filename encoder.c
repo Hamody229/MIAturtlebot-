@@ -10,10 +10,6 @@
 #include "encoder.h"
 
 volatile uint16_t pulse_count = 0;
-uint32_t previous_time = 0;
-uint32_t current_time = 0;
-float rpm = 0.0;
-
 
 
 void encoder_init(void) {
