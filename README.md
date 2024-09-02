@@ -8,7 +8,7 @@ ________________________________________________________________________________
 
 ***********************************
 ## Start with turtlebot 3 simulation 
-***********************************
+
 first install turtlebot 3 :
 ```
   sudo apt-get install ros-noetic-turtlebot3-msgs
