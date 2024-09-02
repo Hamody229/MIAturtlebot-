@@ -93,11 +93,11 @@ roslaunch turtlebot3_slam turtlebot3_slam.launch
 ```
 **********
 ### Add the LiDAR Data: 
-```
-In RViz, click the Add button in the bottom left.
-Choose By topic.
-Select /scan under LaserScan.
-```
+
+- In RViz, click the Add button in the bottom left.
+- Choose By topic.
+- Select /scan under LaserScan.
+
 *********
 ## To publish euler data 
 *********
