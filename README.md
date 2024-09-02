@@ -71,7 +71,7 @@ roslaunch turtlebot3_slam turtlebot3_slam.launch
 
 **********
 ## Read IMU and convert it to YAW 
-***********
+
 ```
 rosrun my_robot_package imu_to_euler_publisher.py 
 ```
