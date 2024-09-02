@@ -93,6 +93,30 @@ rostopic echo /imu/eular
 
         - Sensor Fusion: When combining data from multiple sensors (e.g., IMU and LiDAR), the presence of noise in one sensor can affect the fusion process. Adding noise during development allows you           to refine your sensor fusion algorithms to handle these cases effectively.
         - Filtering Techniques: Many algorithms, such as Kalman filters or complementary filters, are designed to filter out noise. Testing these algorithms with noisy data helps in tuning them for             optimal performance.
+    ###How to add gaussian noise:
+```
+
+-git the urdf file from github
+
+```
+-Open the URDF File: Use a text editor to open the .urdf file you downloaded. Look for the <sensor> tags that define your IMU sensors.
+-change this values due to the noise you want to add
+```
+ <type>gaussian</type>
+      <rate>
+        <mean>0.0</mean>
+        <stddev>1e-4</stddev>
+        <bias_mean>0.0000075</bias_mean>
+        <bias_stddev>1e-6</bias_stddev>
+      </rate>
+      <accel>
+        <mean>0.0</mean>
+        <stddev>1e-2</stddev>
+        <bias_mean>0.005</bias_mean>
+        <bias_stddev>1e-4</bias_stddev>
+      </accel>
+    </noise>
+```
 ***********
 ## Kalman Filter 
 
