@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=task10_2.X
+PROJECTNAME=MIAturtlebot-
 
 # Active Configuration
 DEFAULTCONF=default

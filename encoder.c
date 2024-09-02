@@ -18,6 +18,7 @@ void encoder_init(void) {
     EIMSK = (1 << INT0);  // Enable INT0
 }
 
+
 ISR(INT0_vect) {
     pulse_count++;
 }
