@@ -7,7 +7,7 @@ import math
 
 class PIDController:
     def __init__(self):
-        rospy.init_node('turtlebot_pid_controller', anonymous=True)
+        rospy.init_node('shato_pid_controller', anonymous=True)
         
         # Publisher for velocity commands
         self.vel_pub = rospy.Publisher('/cmd_vel', Twist, queue_size=10)
