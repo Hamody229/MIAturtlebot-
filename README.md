@@ -4,6 +4,7 @@
     - [Shooting Mechanism](#2-shooting-mechanism)
     - [Motor Selection](#3-motor-selection)
     - [Comparisons of Different Approaches](#4-comparisons-of-different-approaches)
+2. [Driblling Mechanism] (#2. Robot      
 
 
 ---
@@ -92,3 +93,20 @@ This document explains the working mechanism of the shooting functionality in th
 | 500 W       | 8.5 m    | Fast   | [500W DC-motor1]( https://www.ebay.com/itm/134043091709?chn=ps&var=433488060086&_trkparms=ispr%3D1&amdata=enc%3A1gYBR_8KkQv6R-8qDjRVb5g44&norover=1&mkevt=1&mkrid=711-167653-786486-8&mkcid=2&itemid=433488060086_134043091709&targetid=325425753764&device=c&mktype=pla&googleloc=9112344&poi=&campaignid=20784063734&mkgroupid=158211146320&rlsatarget=pla-325425753764&abcId=&merchantid=101696517&gad_source=1&gclid=CjwKCAjw3P-2BhAEEiwA3yPhwCujOd31pH74_cCd1j18fxLIUe8kLhMUDDMMaiR_9kcwKhEkcJzhIRoCBzsQAvD_BwE ) | 
 | 150 W       | 3.87 m   | Fast   | [150W DC-motor1](https://www.ebay.com/itm/126537966517?chn=ps&_trkparms=ispr%3D1&amdata=enc%3A1Uvq5_iUuS6u5cfC59VoLNA38&norover=1&mkevt=1&mkrid=711-167653-786486-8&mkcid=2&itemid=126537966517&targetid=325425753764&device=c&mktype=pla&googleloc=9112344&poi=&campaignid=20784063734&mkgroupid=158211146320&rlsatarget=pla-325425753764&abcId=&merchantid=101695362&gad_source=1&gclid=CjwKCAjw3P-2BhAEEiwA3yPhwNmFAmhhyG91O_4upMU8QU9JQIsDPmN14HmfBsZ8Q7St1lAtIV_isBoCAlkQAvD_BwE)
 ||||[150W DC-motor2](https://www.brushless.com/12v-150w-brushless-dc-motor)  | 
+
+
+
+
+# 2. Robot Driblling Mechanism and Motor Selection
+
+
+  the working mechanism of the driblling functionality in the ABU robot, focusing on the selection of motors for optimal performance. It includes calculations of force, torque, and motor power requirements .
+
+  ## 2. Driblling Mechanism
+    ## mechanism 1
+    
+    
+
+  
+
+
