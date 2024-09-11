@@ -1,0 +1,68 @@
+import numpy as np
+
+# Robot dimensions
+L = 0.3  # Length of the robot (meters)
+W = 0.3  # Width of the robot (meters)
+r = 0.04  # Radius of the wheels (meters)
+
+# Initial global position and orientation
+global_x = 0.0
+global_y = 0.0
+global_theta = 0.0  # Orientation in radians
+
+def inverse_kinematics(robot_velocities, dt):
+    global global_x, global_y, global_theta
+    # Robot velocities: [vx, vy, omega]
+    velocities = np.array(robot_velocities).reshape((3, 1))  # Reshape into a 3x1 column vector
+    
+    # Kinematic matrix for a 4-wheel robot
+    kinematic_matrix = (1 / r) * np.array([
+        [1, -1, -(L + W)],
+        [1,  1,  (L + W)],
+        [1, -1,  (L + W)],
+        [1,  1, -(L + W)]
+    ])
+    
+    # Calculate wheel velocities: [omega1, omega2, omega3, omega4]
+    wheel_velocities = np.dot(kinematic_matrix, velocities)
+    
+    # Update global position and orientation based on velocity
+    vx, vy, omega = velocities.flatten()
+    global_x += (vx * np.cos(global_theta) - vy * np.sin(global_theta)) * dt
+    global_y += (vx * np.sin(global_theta) + vy * np.cos(global_theta)) * dt
+    global_theta += omega * dt
+    
+    return wheel_velocities.flatten(), (global_x, global_y, global_theta)
+
+# Time step and simulation duration
+dt = 0.1  # Time step in seconds
+sim_time = 5  # Total simulation time in seconds
+
+# Define movement types
+movements = {
+    "move_in_x": [1, 0, 0],    # Move in x-direction (vx = 1 m/s, vy = 0, omega = 0)
+    "move_in_y": [0, 1, 0],    # Move in y-direction (vx = 0, vy = 1 m/s, omega = 0)
+    "rotate":    [0, 0, 1],    # Rotate in place (vx = 0, vy = 0, omega = 1 rad/s)
+}
+
+# Choose the desired movement
+desired_robot_vels = movements["rotate"]  # Change to "move_in_y" or "rotate" to test other movements
+
+# Lists to store the robot's global position over time
+x_positions = []
+y_positions = []
+theta_positions = []
+
+# Run the simulation for the given time
+num_steps = int(sim_time / dt)
+for step in range(num_steps):
+    wheel_vels, global_position = inverse_kinematics(desired_robot_vels, dt)
+    
+    # Store positions for plotting
+    x_positions.append(global_position[0])
+    y_positions.append(global_position[1])
+    theta_positions.append(global_position[2])
+    
+# Print wheel velocities and global position at each step
+print("Wheel Velocities (omega1, omega2, omega3, omega4):", wheel_vels)
+print("Global Position (x, y, theta):", global_position)
