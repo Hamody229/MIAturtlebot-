@@ -12,6 +12,8 @@ Here is the updated README file including the movement section and motor selecti
     - [Minimum Requirements](#1-minimum-requirements)
     - [Calculations](#2-calculations)
     - [Motor Selection](#3-motor-selection)
+  
+3. [Dribbling](#3-
 
 ---
 
@@ -169,3 +171,50 @@ The 30 kg weight assumption led to a high power requirement of 286.94 watts, mak
 - **30ECT90 Ultra EC**: Not selected due to its 24V nominal voltage. Which is too close for comfort. The limit required by the robocon 25 rules is 24V.
 
 - **22ECS45 Ultra EC**: Not enough power (120W max).
+
+
+
+
+# 1. Robot Driblling Mechanism and Motor Selection
+the working mechanism of the dribbling functionality in the ABU robot, focusing on the selection of motors for optimal performance. It includes calculations of force, torque, and motor power requirements.
+
+
+## 2. Driblling Mechanism
+
+
+  ### mechanism 1
+
+
+  ![image](https://github.com/user-attachments/assets/d3c22365-5385-4c73-bda9-0af36cc294b6)
+  ![image](https://github.com/user-attachments/assets/3f94ee39-4b61-4820-a5a0-98cb9d524a2a)
+  ![image](https://github.com/user-attachments/assets/9f083783-2253-45f8-8819-62c8ba7bcd3b)
+  ### mechanism 2
+
+  ![image](https://github.com/user-attachments/assets/61150690-fbc7-48c4-b766-150d2e3771c8)
+  ![image](https://github.com/user-attachments/assets/263bdf63-fd1e-46a4-b5b9-6c0203eb7ca3)
+  ![image](https://github.com/user-attachments/assets/99ff390d-c633-40b3-b440-712f7d7d49f9)
+## 3. Motor Selection
+
+### Possible Motor Types
+- **Servo Motor**:  percise and Cheap    
+- **Stepper Motors**: percise and provides high torque
+ 
+
+
+### Selection Criteria
+1. **Power Requirements**:
+   - Motor power is calculated based on the desired mechanism 547 W for high stability and realistic and 34 W for the tangential blade mechanism
+   - steper motors are less energy efficient.
+2. **Speed and Torque**:
+    - We need a high torque so stepper is better 
+3. **Cost**: servo motor is more economical.
+4. **Weight and Size**: Must fit the robot’s design.
+
+
+### Selection 
+
+mechanism 2 
+[servo](https://www.ebay.com/itm/386426763484?chn=ps&var=653886737347&norover=1&mkevt=1&mkrid=711-167653-786486-8&mkcid=2&itemid=653886737347_386426763484&targetid=325425753764&device=c&mktype=pla&googleloc=1005386&poi=&campaignid=20784063734&mkgroupid=158211146320&rlsatarget=pla-325425753764&abcId=&merchantid=6296724&gad_source=1&gclid=CjwKCAjw3P-2BhAEEiwA3yPhwBQA7p_8X-Zw5MBfwcH1BCXyPX1tzLABuUBxXMTOt14e84vDOdk9khoCYN0QAvD_BwE)
+
+mechansim 1
+[stepper](https://www.noon.com/egypt-en/17hs4401-stepper-motor-1-7a/Z70EBF422579EFA9D0A86Z/p/?o=z70ebf422579efa9d0a86z-1&utm_source=c1000087l&utm_medium=cpc&utm_campaign=C1000151430N_eg_en_web_performancemaxxelectronicsaccessoriesxalwaysonx18082022_noon_web_c1000087l_remarketing_plassc_&gad_source=1&gclid=CjwKCAjw_4S3BhAAEiwA_64YhoZxTzYnFNoPdgjUq5y42Pr9tskMqnEYh2DwxRW6W2BXH_SMOLQt9hoCgmYQAvD_BwE)
