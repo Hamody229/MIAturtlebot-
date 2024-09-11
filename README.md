@@ -1,7 +1,3 @@
-Here is the updated README file including the movement section and motor selection details:
-
----
-
 ## Table of Contents
 1. [Shooting Mechanism](#1-robot-shooting-mechanism-and-motor-selection)
     - [Introduction](#1-introduction)
