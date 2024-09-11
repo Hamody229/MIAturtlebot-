@@ -20,42 +20,36 @@ This document explains the working mechanism of the shooting functionality in th
 
 ## 2. Shooting Mechanism
 
-   - **Flywheel Shooter** :  Two spinning wheels with rope in between to launch the projectile which is the ball
+   - **Flywheel Shooter** : Two spinning wheels with rope in between to launch the projectile which is the ball.
 
-        - ### Case Study 1: Shooting Mechanism with an 8.5 Meter Range ( longest possible range )
+        ### Case Study 1: Shooting Mechanism with an 8.5 Meter Range (longest possible range)
 
-            - **Wheel Speed calc :** using the projectile formula to calculate the intial velocity that the ball needs to reach the bascket
-            $$y = x \tan(\alpha) - \frac{1}{2} g \left( \frac{x}{v \cdot \cos(\alpha)} \right)^2$$
+        - **Wheel Speed Calculation:** Using the projectile formula to calculate the initial velocity that the ball needs to reach the basket:
+        $$y = x \tan(\alpha) - \frac{1}{2} g \left( \frac{x}{v \cdot \cos(\alpha)} \right)^2$$
 
-            - To convert angular velocity to revolutions per minute (RPM):
+        - To convert angular velocity to revolutions per minute (RPM):
+        $$\text{RPM} = \frac{\omega \times 60}{2 \pi}$$
 
-            $$\text{RPM} = \frac{\omega \times 60}{2 \pi}$$
+        - **Projectile Energy:**
+        $$KE = \frac{1}{2} m v^2$$
 
-            - **Projectile energy :** 
-            $$KE = \frac{1}{2} m v^2$$
-
-            - **Wheel Material:** Rotational Kinetic Energy of the wheel .
-                    $$E = \frac{1}{2} I \omega^2$$
-
-            #### Results
-
-            After testing, the needed motor should has an output RPM = 640 and power = 500W which is a high power so if we set a max power of 150W we can reverse engineer that case as following
-
-
-        ### Case Study 2: 
-        Reverse Engineering with a 150W Motor ( if we consider it as the max power can be provided bythe system ) to analyzing the performance impact on the wheel mechanism and range of shooting.
-
-        1. **Speed :** calculate the max speed that motor is able to shoot the ball with 
-
-        2. **Range :** calculate the max range of shooting based on max velocity
-
+        - **Wheel Material (Rotational Kinetic Energy of the Wheel):**
+        $$E = \frac{1}{2} I \omega^2$$
 
         #### Results
-        - **less range:** 
+        After testing, the needed motor should have an output of RPM = 640 and power = 500W, which is too high. By setting a max power of 150W, we reverse engineer the case:
+
+        ### Case Study 2: Reverse Engineering with a 150W Motor
+        Analyzing the performance impact on the wheel mechanism and shooting range.
+
+        1. **Speed**: Calculate the max speed the motor can shoot the ball.
+        2. **Range**: Calculate the max shooting range based on max velocity.
+
+        #### Results
+        - **Less range**: 
         $$range = 3.44 m$$
 
-
-        ### Detailed calculations in these papers
+        ### Detailed Calculations in These Papers
         <div style="display: flex;">
             <img src="WhatsApp Image 2024-09-11 at 05.27.52_f7fdb899-1.jpg" style="width: 30%; height: auto; margin-right:50px; margin-left:20%;">
             <img src="WhatsApp Image 2024-09-11 at 05.28.06_f2e717c4.jpg" style="width: 30%; height: auto;">
@@ -63,30 +57,22 @@ This document explains the working mechanism of the shooting functionality in th
 
 ## 3. Motor Selection
 
-### Possible Motor Types to use 
-- **DC Motor**: cheap ,and high torque compared to size motor
+### Possible Motor Types
+- **DC Motor**: Cheap and high torque compared to size.
 - **Brushless Motors**: Highly efficient for high-speed, long-duration tasks.
-
 
 ### Selection Criteria
 1. **Power Requirements**:
-   - Motor power is calculated based on the the desired shooting speed 500 W and 150 W for low range
-   - BLDC is more energy efficient so it wins this point
-
+   - Motor power is calculated based on the desired shooting speed: 500W for high range and 150W for low range.
+   - BLDC motors are more energy efficient.
 2. **Speed and Torque**:
     $$P = \tau \omega$$
-    - We can adjust the speed and torque based on power by this formula in our case we need RPM = 640 for the first case and 440 RPM for second case .
-    - since theres no need for high speed in this task then no need for BLDC
+    - We need RPM = 640 for the first case and 440 RPM for the second.
+3. **Cost**: DC motor is more economical.
+4. **Weight and Size**: Must fit the robot’s design.
 
-
-3. **cost**:
-    - this point for the DC motor
-
-4. **Weight and Size**:
-   - The motor’s weight and dimensions must fit within the robot’s design, without causing balance issues.
-
-### conclusion : DC motor is more suitable for this task 
-
+### Conclusion
+DC motor is more suitable for this task.
 
 ## 4. Comparisons of Different Approaches
 
