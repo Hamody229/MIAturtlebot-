@@ -21,15 +21,11 @@ This document explains the working mechanism of the shooting functionality in th
         - ### Case Study 1: Shooting Mechanism with an 8.5 Meter Range ( longest possible range )
 
             - **Wheel Speed calc :** using the projectile formula to calculate the intial velocity that the ball needs to reach the bascket
-            $$
-            y = x \tan(\alpha) - \frac{1}{2} g \left( \frac{x}{v \cdot \cos(\alpha)} \right)^2
-            $$
+            $$y = x \tan(\alpha) - \frac{1}{2} g \left( \frac{x}{v \cdot \cos(\alpha)} \right)^2$$
 
             - To convert angular velocity to revolutions per minute (RPM):
 
-            $$
-            \text{RPM} = \frac{\omega \times 60}{2 \pi}
-            $$
+            $$\text{RPM} = \frac{\omega \times 60}{2 \pi}$$
 
             - **Projectile energy :** 
             $$KE = \frac{1}{2} m v^2$$
@@ -52,9 +48,7 @@ This document explains the working mechanism of the shooting functionality in th
 
         #### Results
         - **less range:** 
-        $$
-        range = 3.44 m
-        $$
+        $$range = 3.44 m$$
 
 
         ### Detailed calculations in these papers
@@ -76,9 +70,7 @@ This document explains the working mechanism of the shooting functionality in th
    - BLDC is more energy efficient so it wins this point
 
 2. **Speed and Torque**:
-    $$
-    P = \tau \omega
-    $$
+    $$P = \tau \omega$$
     - We can adjust the speed and torque based on power by this formula in our case we need RPM = 640 for the first case and 440 RPM for second case .
     - since theres no need for high speed in this task then no need for BLDC
 
