@@ -83,7 +83,6 @@ DC motor is more suitable for this task.
 |--------|---------|-------|--------------------|
 | 500 W  | 8.5 m   | Fast  | [500W DC-motor1](https://www.ebay.com/itm/134043091709) | 
 | 150 W  | 3.87 m  | Fast  | [150W DC-motor1](https://www.ebay.com/itm/126537966517) | 
-|||       | [150W DC-motor2](https://www.brushless.com/12v-150w-brushless-dc-motor) |
 
 ---
 
