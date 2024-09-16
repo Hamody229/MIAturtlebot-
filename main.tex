@@ -1,0 +1,69 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+
+\title{Tic-Tac-Toe Game with Gesture Recognition Using YOLO}
+\author{Ahmed Eslam\\
+        Faculty of Engineering}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+    This document provides an overview of a Tic-Tac-Toe game implemented with gesture recognition using the YOLO model. The project involves setting up a gesture detection system, integrating it with a Tic-Tac-Toe game logic, and evaluating the system’s performance.
+\end{abstract}
+
+\section{Introduction}
+\subsection{Background}
+    Gesture recognition allows users to interact with applications through hand movements. This project implements a Tic-Tac-Toe game where players use hand gestures to make moves. The system uses YOLO (You Only Look Once), a popular object detection model, to identify gestures.
+
+\subsection{Objectives}
+    The primary objective is to develop a Tic-Tac-Toe game where moves are detected via hand gestures. The system should accurately recognize gestures and update the game board accordingly.
+
+\section{Methodology}
+\subsection{Data Collection and Model Training}
+    For gesture recognition, we use a pre-trained YOLO model. The model was trained to recognize specific hand gestures representing X and O. The dataset used for training included various hand gesture images to ensure robustness in gesture detection.
+
+\subsection{Game Implementation}
+    \subsubsection{Tic-Tac-Toe Board Setup}
+        The game board is a 3x3 grid where each cell can be empty, contain an X, or contain an O. The board is represented as a 2D NumPy array.
+
+    \subsubsection{Gesture Detection}
+        The YOLO model detects hand gestures in real-time. Each gesture corresponds to a specific class ID (e.g., 0 for X and 1 for O). The position of the hand gesture is mapped to the corresponding cell in the Tic-Tac-Toe grid.
+
+    \subsubsection{Game Logic}
+        Moves are processed based on detected gestures. The game checks for win conditions or a draw after each move. The game alternates between two players, updating the board and checking for game-ending conditions.
+
+\section{Code Explanation}
+\subsection{Drawing the Game Board}
+    The function \texttt{draw\_board()} draws the Tic-Tac-Toe grid on the video feed using OpenCV. It divides the frame into a 3x3 grid with white lines.
+
+\subsection{Placing X and O}
+    The function \texttt{draw\_x\_o()} updates the game board display by drawing Xs and Os in the appropriate cells based on the current state of the board.
+
+\subsection{Mapping Gesture to Grid}
+    \texttt{map\_box\_to\_grid()} calculates which cell in the Tic-Tac-Toe grid corresponds to the center of the detected hand gesture bounding box.
+
+\subsection{Gesture Detection}
+    The function \texttt{detect\_gesture\_move()} uses the YOLO model to identify gestures. It returns the grid position based on the gesture detected (X or O).
+
+\subsection{Win and Draw Conditions}
+    \texttt{check\_win()} determines if the current player has won by checking rows, columns, and diagonals. \texttt{check\_draw()} checks if the board is full and no winner is found.
+
+\subsection{Displaying Results}
+    \texttt{display\_winner\_message()} shows a message indicating the game result (win or draw) and waits for a few seconds before closing the window.
+
+\section{Testing and Evaluation}
+    The system was tested by performing various gestures in front of the camera. The accuracy of gesture detection was evaluated, and the game logic was verified to ensure correct functionality.
+
+\section{Conclusion}
+    This project successfully implements a gesture-based Tic-Tac-Toe game using YOLO for real-time gesture recognition. The system provides an interactive and engaging way to play Tic-Tac-Toe through hand gestures.
+
+\section{Future Work}
+    Future improvements could include enhancing gesture recognition accuracy, expanding the range of gestures, and integrating more sophisticated game features.
+
+\end{document}
